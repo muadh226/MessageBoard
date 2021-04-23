@@ -18,8 +18,30 @@
   margin: 0 0 0 2.5em;
 }
 
+.pageIndex {
+  margin: 25px 0 auto 1%;
+  font-weight: bold;
+  color: #005254;
+}
+
+.PrevButton {
+  margin: 23px 0 auto 43%;
+}
+
 .NewPostButton {
-  margin: 25px auto 0px 44%;
+  margin: 25px auto auto 44%;
+}
+
+.SchedulePostButton {
+  margin: 25px auto auto 25%;
+}
+
+.NextButton {
+  margin: 23px 0 auto 1.2%;
+}
+
+.PageHandler {
+  display: flex;
 }
 
 #message {
@@ -41,4 +63,8 @@
   float:right;
   font-size: 13px;
   margin:30px auto 0px auto;
+}
+
+#DateTimePicker {
+  margin-top: 25px;
 }

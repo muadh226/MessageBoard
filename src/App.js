@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from "./components/Main";
+import MessageBoard from "./components/MessageBoard";
 import {BrowserRouter, Switch, Route} from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
@@ -10,7 +10,7 @@ const App = () => {
     <BrowserRouter> {/*Option to add different pages with different paths later for scalability*/}
       <div>
         <Switch>
-          <Route path="/" component={Main} />
+          <Route path="/" component={MessageBoard} />
         </Switch>
       </div>
     </BrowserRouter>
